@@ -1,0 +1,279 @@
+:root {
+  --white: #ffffff;
+  --navy-blue: #335576;
+  --orange: #DB7A4E;
+  --off-white: #FEFAF5;
+  /*had to use "rgb(246, 242, 235);" to replace "FEFAF5" as the colour stopped appearing on both the website & mockup after multiple attempts to get it to show, it stayed as a solid white colour.*/
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #FFFFFF;
+  color: var(--navy-blue)
+}
+
+li {
+  padding: 28px;
+  padding-top: 10px;
+
+}
+
+.three-pages {
+  margin: auto;
+  padding-bottom: 250px;
+}
+
+.header-navbar {
+  padding-bottom: -80px;
+}
+
+.heading-hero {
+  font-weight: bold;
+}
+
+.destination-heading {
+  font-weight: bold;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: #FFFFFF;
+}
+
+.nav-black-list {
+  color: rgb(246, 242, 235);
+  display: flex;
+  text-decoration: none;
+  margin-top: 30px;
+  font-size: large;
+  margin-right: 90px;
+
+}
+
+.header-title {
+  padding: 4px;
+  margin-left: 120px;
+  padding-bottom: 0%;
+}
+
+
+
+.NavContainer {
+  float: right;
+  margin-top: -85px;
+
+}
+
+.home-active,
+.hawaii-active,
+.iceland-active,
+.greece-active {
+  text-decoration: underline;
+  text-decoration-color: #DB7A4E;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 13px;
+}
+
+.schedule {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30rem;
+}
+
+.ListContainer {
+  background-color: var(--white);
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-block;
+  width: 335px;
+  margin: 3rem;
+  /* Box dimensions */
+  height: 450px;
+  float: left;
+  border-radius: 5px;
+
+}
+
+.ListContainer2 {
+  background-color: var(--white);
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-block;
+  width: 335px;
+  margin: 0;
+  margin-top: 3rem;
+  /* Box dimensions */
+  height: 450px;
+  float: left;
+  border-radius: 5px;
+  /* Styling */
+
+}
+
+.hawaii-main-title {
+  color: white;
+  font-size: 5rem;
+  padding-left: 7.5rem;
+  padding-top: -5rem;
+  padding-bottom: -10rem;
+}
+
+.iceland-main-title {
+  color: white;
+  font-size: 5rem;
+  padding-left: 7.5rem;
+  padding-top: 4rem;
+  padding-bottom: -10rem;
+}
+
+.greece-main-title {
+  color: white;
+  font-size: 5rem;
+  padding-left: 7.5rem;
+  padding-top: 4rem;
+  padding-bottom: -10rem;
+}
+
+.days-name {
+  text-align: center;
+  list-style-type: none;
+  color: black;
+  text-decoration: underline;
+
+}
+
+.days-list {
+  text-align: center;
+  list-style-type: none;
+  color: black;
+  padding: 3rem;
+}
+
+.iceland-main-title {
+  color: white;
+  font-size: 5rem;
+}
+
+.greece-main-title {
+  color: white;
+  font-size: 5rem;
+}
+
+.ListContainer3 {
+  background-color: var(--white);
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  display: inline-block;
+  width: 335px;
+  margin: 3rem;
+  /* Box dimensions */
+  height: 450px;
+  float: right;
+  border-radius: 5px;
+
+}
+
+.orange-footer-text {
+  color: var(--orange);
+  width: max-content;
+}
+
+.icon {
+  width: max-content;
+  padding: 20px;
+  margin: 3px;
+  width: 35px;
+
+}
+
+.icon_f {
+  padding: 20px;
+  margin: 3px;
+  width: 20px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+footer {
+  height: 50%;
+  background: rgb(246, 242, 235);
+}
+
+.contact {
+  flex: 1;
+  margin-left: 300px;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  margin-right: 500px;
+  width: 500px;
+
+}
+
+.social {
+  flex: 2;
+  margin-left: -400px;
+}
+
+p {
+  padding: 2px;
+}
+
+.footer-heading {
+  flex: 1;
+}
+
+.availability {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.info1 {
+  flex: 1;
+  width: 50px;
+  width: max-content;
+  padding-right: 5%;
+}
+
+.info2 {
+  flex: 2;
+  width: max-content;
+  padding-right: 5%;
+}
+
+.info3 {
+  flex: 3;
+  width: max-content;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/*Following code manipulates background color of each list item in every card:*/
+.listColor {
+  background-color: rgb(246, 242, 235);
+  margin-bottom: 10px;
+  margin-left: -30px;
+  width: 300px;
+  align-items: center;
+}
